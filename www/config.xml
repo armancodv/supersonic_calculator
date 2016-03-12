@@ -10,7 +10,7 @@
     <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
     <preference name="android-minSdkVersion"      value="9" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
-    <gap:plugin name="com.google.cordova.admob" source="plugins.cordova.io" />
+	<plugin name="com.admob.google" spec="4.0.8" source="pgb" />
     <icon src="res/icon/icon.png" />
 	<icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
