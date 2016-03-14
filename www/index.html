@@ -59,7 +59,7 @@ function initApp() {
 	<tr><td class="page-table-image" colspan="2" style="background-image:url(images/{{shape[shape_id]}}.png);">
 	</td></tr>
 	<tr><td class="page-table-input" colspan="2">
-		<div class="paragraph">Please complete the values</div>
+		<div class="paragraph">Please complete inputs</div>
 		<table ng-repeat="(p_key, p_value) in input[shape_id]" cellpadding="0" cellspacing="0" class="input"><tr><td class="input-lable">{{input_fa[shape_id][p_key]}}</td><td class="input-value"><input type="number" step="0.0000000001" min="-9999999999999999999999999999999999999999" max="9999999999999999999999999999999999999999" ng-model="value[p_value]" ng-change="calculate()" onclick="this.focus();this.select()"></td></tr></table>
 	</td></tr>
 	<tr><td class="page-table-main" colspan="2">
