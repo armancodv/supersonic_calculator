@@ -1,4 +1,4 @@
-# supersonic_calculator
+# Supersonic Calculator
 It is an android app developed using Cordova. This app calculates properties of the supersonic flow.
 
 You can download it here:
