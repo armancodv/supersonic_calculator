@@ -1,6 +1,6 @@
 class Model {
     constructor() {
-        this.version = '4.0.0';
+        this.version = '4.0.1';
         this.package = 'com.armanco.supersonic_calculator';
         this.homepage = 'https://arman.co.com/';
         this.api = 'https://arman.co.com/api/applist_formula.php';
